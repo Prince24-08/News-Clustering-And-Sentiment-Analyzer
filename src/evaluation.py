@@ -8,4 +8,4 @@ def evaluate_clustering(df, labels):
     acc = accuracy_score(true_labels, labels)
     print("\nClustering Accuracy (approx):", acc)
 
-    
+    return acc
